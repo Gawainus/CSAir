@@ -1,0 +1,125 @@
+{
+  "data sources" : [
+		"http://www.gcmap.com/" ,
+		"http://www.theodora.com/country_digraphs.html" ,
+		"http://www.citypopulation.de/world/Agglomerations.html" ,
+		"http://www.mongabay.com/cities_urban_01.htm" ,
+		"http://en.wikipedia.org/wiki/Urban_agglomeration" ,
+		"http://www.worldtimezone.com/standard.html"
+	] ,
+
+	"metros" : [
+		{
+			"code" : "1" ,
+			"name" : "Santiago" ,
+			"country" : "CL" ,
+			"continent" : "South America" ,
+			"timezone" : -4 ,
+			"coordinates" : {"S" : 33, "W" : 71} ,
+			"population" : 6000000 ,
+			"region" : 1
+		} , {
+			"code" : "2" ,
+			"name" : "Lima" ,
+			"country" : "PE" ,
+			"continent" : "South America" ,
+			"timezone" : -5 ,
+			"coordinates" : {"S" : 12, "W" : 77} ,
+			"population" : 9050000 ,
+			"region" : 1
+		} , {
+			"code" : "3" ,
+			"name" : "Mexico City" ,
+			"country" : "MX" ,
+			"continent" : "North America" ,
+			"timezone" : -6 ,
+			"coordinates" : {"N" : 19, "W" : 99} ,
+			"population" : 23400000 ,
+			"region" : 1
+		} , {
+			"code" : "4" ,
+			"name" : "Bogota" ,
+			"country" : "CO" ,
+			"continent" : "South America" ,
+			"timezone" : -5 ,
+			"coordinates" : {"N" : 5, "W" : 74} ,
+			"population" : 8600000 ,
+			"region" : 1
+		} , {
+			"code" : "5" ,
+			"name" : "Buenos Aires" ,
+			"country" : "AR" ,
+			"continent" : "South America" ,
+			"timezone" : -3 ,
+			"coordinates" : {"S" : 35, "W" : 58} ,
+			"population" : 13300000 ,
+			"region" : 1
+		} , {
+			"code" : "6" ,
+			"name" : "Sao Paulo" ,
+			"country" : "BR" ,
+			"continent" : "South America" ,
+			"timezone" : -3 ,
+			"coordinates" : {"S" : 24, "W" : 47} ,
+			"population" : 20900000 ,
+			"region" : 1
+		}
+	] ,
+	"routes" : [
+		{
+			"ports" : ["1" , "6"] ,
+			"distance" : 14
+		}, {
+			"ports" : ["6" , "1"] ,
+			"distance" : 14
+		}, {
+			"ports" : ["1" , "3"] ,
+			"distance" : 9
+		}, {
+			"ports" : ["3" , "1"] ,
+			"distance" : 9
+		}, {
+			"ports" : ["1" , "2"] ,
+			"distance" : 7
+		}, {
+			"ports" : ["2" , "1"] ,
+			"distance" : 7
+		}, {
+			"ports" : ["2" , "3"] ,
+			"distance" : 10
+		}, {
+			"ports" : ["3" , "2"] ,
+			"distance" : 10
+		}, {
+			"ports" : ["2" , "4"] ,
+			"distance" : 15
+		}, {
+			"ports" : ["4" , "2"] ,
+			"distance" : 15
+		}, {
+			"ports" : ["3" , "4"] ,
+			"distance" : 11
+		}, {
+			"ports" : ["4" , "3"] ,
+			"distance" : 11
+		}, {
+			"ports" : ["4" , "5"] ,
+			"distance" : 6
+		}, {
+			"ports" : ["5" , "4"] ,
+			"distance" : 6
+		}, {
+			"ports" : ["5" , "6"] ,
+			"distance" : 9
+		}, {
+			"ports" : ["6" , "5"] ,
+			"distance" : 9
+		}, {
+			"ports" : ["3" , "6"] ,
+			"distance" : 2
+		}, {
+			"ports" : ["6" , "3"] ,
+			"distance" : 2
+		}
+	]
+}
